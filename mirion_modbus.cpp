@@ -7,9 +7,53 @@
 
 int main()
 {
-	std::cout << "test";
+	modbus_t* ctx;
+	ctx = modbus_new_tcp("127.0.0.1", 502);
+	if (ctx == NULL)
+		std::cout << "Unable to allocate libmodbus context\n";
+	else
+		std::cout << "libmodbus context allocated\n";
+
+	/*std::cout << modbus_connect(ctx);*/
+	
+	
+
+	modbus_mapping_t * mb_mapping;
+	mb_mapping = modbus_mapping_new(0, MODBUS_MAX_READ_BITS, 0, MODBUS_MAX_READ_REGISTERS);
+	mb_mapping->tab_input_registers[0] = 500;
+
+
+	//modbus_write_register(ctx, 1, 50);
+
+	//modbus_free(ctx);
+
+
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //
