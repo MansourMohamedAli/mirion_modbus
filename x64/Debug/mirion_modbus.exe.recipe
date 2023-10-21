@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Work\mirion_modbus\x64\Debug\mirion_modbus.exe</FullPath>
+      <FullPath>C:\Internal_Development\mirion_modbus\x64\Debug\mirion_modbus.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

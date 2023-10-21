@@ -1,8 +1,17 @@
 //// mirion_modbus.cpp : This file contains the 'main' function. Program execution begins and ends there.
 ////
 //
-//#include <iostream>
-//#include <modbus.h>
+#include <iostream>
+#include <modbus.h>
+
+
+int main()
+{
+	std::cout << "test";
+	return 0;
+}
+
+
 //
 //int main()
 //{
