@@ -23,7 +23,7 @@ int main()
 
 	modbus_mapping_t * mb_mapping;
 	mb_mapping = modbus_mapping_new(0, MODBUS_MAX_READ_BITS, 0, MODBUS_MAX_READ_REGISTERS);
-	mb_mapping->tab_input_registers[1] = 500;
+	mb_mapping->tab_input_registers[0] = 500;
 
 
 	//modbus_write_register(ctx, 1, 50);

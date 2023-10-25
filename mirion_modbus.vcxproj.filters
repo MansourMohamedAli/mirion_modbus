@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mirion_modbus.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="libmodbus\modbus-data.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -28,6 +25,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="libmodbus\modbus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modbus-tcp-slave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mirion_modbus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -163,7 +163,10 @@
     <ClCompile Include="libmodbus\modbus-rtu.c" />
     <ClCompile Include="libmodbus\modbus-tcp.c" />
     <ClCompile Include="libmodbus\modbus.c" />
-    <ClCompile Include="mirion_modbus.cpp" />
+    <ClCompile Include="mirion_modbus.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Modbus-tcp-slave.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="libmodbus\config.h" />
